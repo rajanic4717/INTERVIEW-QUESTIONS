@@ -1,0 +1,66 @@
+1- How will you convert a string to all lowercase?
+Ans: To convert a string to lowercase, lower() function can be used.
+2-What does this mean: *args, **kwargs? And why would we use it?
+Ans: We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function.
+    **kwargs is used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments.
+    The identifiers args and kwargs are a convention, you could also use *bob and **billy but that would not be wise.
+3- What does len() do?
+Ans: It is used to determine the length of a string, a list, an array, etc.
+4-. What is the difference between list and tuples in Python?
+Ans-Lists are mutable i.e they can be edited.Tuples are immutable (tuples are lists which can’t be edited).
+    Lists are slower than tuples.Tuples are faster than list.lists are enclosed in square brackets and tuples are enclosed in round brackets.
+5- Mention the use of // operator in Python?
+Ans-It is a Floor Divisionoperator , which is used for dividing two operands with the result as quotient showing only digits before the decimal point.
+    For instance, 10//5 = 2 and 10.0//5.0 = 2.0.
+6-What is the pass statement in Python?
+Ans-There may be times in our code when we haven’t decided what to do yet, but we must type something for it to be syntactically correct. 
+    In such a case, we use the pass statement.
+7-Explain the //, %, and ** operators in Python.
+Ans-The // operator performs floor division. It will return the integer part of the result on division.Normal division would return 3.5 here.
+    ** performs exponentiation. a**b returns the value of a raised to the power b.% is for modulus. This gives us the value left after the highest achievable division.
+8- What is the difference between append() and extend() methods?
+Ans- Both append() and extend() methods are methods used for lists. These methods are used to add elements at the end of a list.
+   append(element): Adds the given element at the end of the list which called this method
+   extend(another-list): Adds the elements of another-list at the end of the list which called the extend method.
+
+9- What are loop interruption statements in Python?
+Ans- There are two types of loop interruption statements in Python that let users terminate a loop iteration prematurely, i.e., without letting the loop run its full iterations.
+   Following are the two loop interruption statements:Python break statement: This statement immediately terminates the loop entirely,
+   and the control flow of the program is shifted directly to the outside of the loop.Python continue statement: Continue statement terminates the current loop iteration and
+   moves the control flow of the program to the next iteration of the loop, letting the user skip only the current iteration
+10- What are Generators in Python?
+Ans- The way of implementing iterators are known as generators. It is a normal function except that it yields expression in the function.
+
+11-How can you copy an object in Python?
+A. To copy an object in Python, you can try copy.copy () or copy.deepcopy() for the general case. You cannot copy all objects but most of them.
+12- What is module and package in Python?
+Ans-In Python, module is the way to structure program. Each Python program file is a module, which imports other modules like objects and attributes.
+   The folder of Python program is a package of modules. A package can have modules or subfolders.
+13-Q. What is self-keyword in Python?
+Ans- Self-keyword is used as the first parameter of a function inside a class that represents the instance of the class. 
+   The object or the instance of the class is automatically passed to the method that it belongs to and is received in the ‘self-keyword’.
+14- . what is object oriented programming?
+Ans- OOP is the programming paradigm based on classes and instances of those classes called objects.
+  The features of OOP are in #python: #Encapsulation, #Data Abstraction, #Inheritance, #Polymorphism.
+15- What is a map function in Python ?
+A. The map() function in Python has two parameters, function and iterable. The map() function takes a function as an argument and
+  then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results
+  
+16- What is a Python module how it will create by you?
+Ans-Modules are independent Python scripts with .py extension that can be reused in other Python codes or scripts using the import statement.
+    A module can consist of functions, classes, and variables, or some runnable code.
+    Modules not only help in keeping Python codes organized but also in making codes less complex and more efficient. The syntax to import modules in Python codes is as follows.
+17-.What are the rules for local and global variables in Python?
+Ans: If a variable is defined outside function then it is implicitly global​. If variable is
+     assigned new value inside the function means it is local​. If we want to make it global we
+     need to explicitly define it as global. Variable referenced inside the function are implicit global
+ 18- What is the purpose of is, not and in operators?
+Ans:Operators are special functions. They take one or more values and produce a corresponding result.is: returns true when 2 operands are true  (Example: “a” is ‘a’)
+    not: returns the inverse of the boolean value,in: checks if some element is present in some sequence
+ 19-.What is __init__?
+Ans:__init__ is a method or constructor in Python.This method is automatically called to allocate memory when a new object/ instance of a class is created. 
+    All classes have the __init__ method.
+ 20-. How can I find methods or attributes of an object in Python?
+Ans: Built­in dir() function of Python ,on an instance shows the instance variables as well as the methods and class attributes defined by the instance’s class and all its base
+  classes alphabetically. So by any object as argument to dir() we can find all the methods & attributes of the object’s class
+
